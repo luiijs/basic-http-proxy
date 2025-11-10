@@ -6,7 +6,7 @@ const Fastify = fastify({
 })
 
 await Fastify.register(fastifyHttpProxy, {
-    upstream: "https://google.com",
+    upstream: "https://yandex.com",
     prefix: "/name"
 })
 
